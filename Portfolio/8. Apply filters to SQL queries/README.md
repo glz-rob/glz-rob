@@ -82,9 +82,11 @@ This query will retrieve all the records from the `log_in_attempts` table that h
 
 ```SQL
 SELECT *
-FROM login_attempts
+FROM log_in_attempts
 WHERE NOT country LIKE 'MEX%';
 ```
+
+This query will select all the records from `log_in_attempts` that don't match the pattern `'MEX%'`, which indicates all the strings that start with `'MEX'`.
 
 ## Retrieve employees in Marketing
 
@@ -99,6 +101,8 @@ FROM employees
 WHERE department = 'Marketing' AND office LIKE 'East%';
 ```
 
+This query will return all the records from `emplyees` whose `department` matches `'Marketing'` and `office` start with the string `'East'`.
+
 ## Retrieve employees in Finance or Sales
 
 *Your team now needs to perform a different security update on machines for employees in the Sales and Finance departments. Use filters in SQL to create a query that identifies all employees in the Sales or Finance departments. (The department of the employee is found in the `department` column, which contains values that include `Sales` and `Finance`.)*
@@ -109,6 +113,8 @@ FROM employees
 WHERE department = 'Sales' OR department = 'Finance';
 ```
 
+This query will return all the records from `employees` whose `department` matches `'Sales'` or `'Finance'`.
+
 ## Retrieve all employees not in IT
 
 *Your team needs to make one more update to employee machines. The employees who are in the Information Technology department already had this update, but employees in all other departments need it. Use filters in SQL to create a query which identifies all employees not in the IT department. (The department of the employee is found in the `department` column, which contains values that include `Information Technology`.)*
@@ -118,6 +124,8 @@ SELECT *
 FROM employees
 WHERE NOT department = 'Information Technology';
 ```
+
+This query will return all the records from `employees` whose `department` is anything but `'Information Technology'`.
 
 ## Summary
 
