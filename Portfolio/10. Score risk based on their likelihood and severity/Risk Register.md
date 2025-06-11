@@ -20,37 +20,37 @@ The bank is located in a coastal area with low crime rates. Many people and syst
             <td rowspan=5>Funds</td>
             <td>Business email compromise</td>
             <td><i>An employee is tricked into sharing confidential information.</i></td>
-            <td>3</td>
-            <td></td>
-            <td></td>
+            <td>2</td>
+            <td>2</td>
+            <td>4</td>
         </tr>
         <tr>
             <td>Compromised user database</td>
             <td><i>Customer data is poorly encrypted.</i></td>
             <td>2</td>
-            <td></td>
-            <td></td>
+            <td>3</td>
+            <td>6</td>
         </tr>
         <tr>
             <td>Financial records leak</td>
             <td><i>A database server of backed up data is publicly accessible.</i></td>
-            <td>1</td>
-            <td></td>
-            <td></td>
+            <td>3</td>
+            <td>3</td>
+            <td>9</td>
         </tr>
         <tr>
             <td>Theft</td>
             <td><i>The bank's safe is left unlocked.</i></td>
             <td>1</td>
-            <td></td>
-            <td></td>
+            <td>3</td>
+            <td>3</td>
         </tr>
         <tr>
             <td>Supply chain disruption</td>
             <td><i>Delivery delays due to natural disasters.</i></td>
             <td>1</td>
-            <td></td>
-            <td></td>
+            <td>1</td>
+            <td>1</td>
         </tr>
         <tr>
             <td>Notes</td>
