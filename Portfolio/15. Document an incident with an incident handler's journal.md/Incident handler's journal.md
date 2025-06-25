@@ -71,7 +71,7 @@ As you continue through this course, you may use this template to record your fi
     </tr>
     <tr>
       <td>Additional notes</td>
-      <td>Include any additional thoughts, questions, or findings.</td>
+      <td>-</td>
     </tr>
   </tbody>
 </table>
